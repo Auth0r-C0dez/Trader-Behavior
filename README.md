@@ -48,15 +48,22 @@ The project repository follows the standardized submission format:
 ```
 ds_yourname/
 ├── notebooks/
-│   ├── notebook_1.ipynb
-│   └── (optional) notebook_2.ipynb
+│   ├── notebook0.ipynb
+│   └── notebook1.iypnb
+|   └── notebook2.ipynb
 ├── csv_files/
 │   ├── Historical_trader_data.csv
-│   └── Fear_and_Greed_Index.csv
+│   └──Final_dataset.csv
+|   └── Fear_and_Greed_Index.csv
 ├── outputs/
-│   ├── boxplot_pnl_by_sentiment.png
-│   ├── timeseries_pnl_vs_sentiment.png
-│   └── feature_importance.png
+│   ├── Daily PnL vs. Market Sentiment Over Time.png
+│   ├── Distribution of Profit & Loss (PnL) by Sentiment.png
+│   └── Evaluation Report for classification models.pdf
+|   └── Screenshot 2025-08-10 012146.png
+|   └── Screenshot 2025-08-10 012155.png
+|   └── Screenshot 2025-08-10 012215.png
+|   └── Screenshot 2025-08-10 012223.png
+|   └── Screenshot 2025-08-10 012231.png
 ├── ds_report.pdf
 └── README.md
 ```
@@ -94,6 +101,81 @@ graph TD
     style D fill:#c107ff,stroke:#333,stroke-width:2px
     style I fill:#dc3545,stroke:#333,stroke-width:2px
 ```
+🚀 Getting Started
+Prerequisites
+
+Python 3.7+
+Google Account (for Colab access)
+Basic understanding of data analysis and machine learning concepts
+
+Quick Start
+
+Fork this repository
+bash# Click the "Fork" button at the top right of this repository
+# Or clone directly:
+git clone https://github.com/Auth0r-C0dez/Trader-Behavior.git
+cd Trader-Behavior
+
+Access the Data
+
+The datasets are included in the Data_Sets/ folder
+Historical_trader_data.csv: Contains trader transaction data from Hyperliquid platform
+Fear_and_Greed_Index.csv: Market sentiment data
+
+
+Run the Analysis
+Option A: Use Google Colab (Recommended)
+
+Open the notebooks in the order provided:
+
+Data Set Processing
+Advanced Visualization
+Model Creation
+
+
+Upload the CSV files from your forked repository to each Colab session
+Follow the step-by-step analysis
+
+Option B: Local Setup
+bash# Create virtual environment
+python -m venv trader_analysis_env
+source trader_analysis_env/bin/activate  # On Windows: trader_analysis_env\Scripts\activate
+
+# Install required packages
+pip install pandas numpy scikit-learn xgboost matplotlib seaborn jupyter
+
+# Launch Jupyter Notebook
+jupyter notebook
+
+Explore the Results
+
+Check the Outputs/ folder for generated visualizations
+Review model performance metrics and feature importance analysis
+Apply the insights to develop your own trading strategies
+
+
+
+Usage Tips
+
+For beginners: Start with Notebook 0 and follow the sequential flow
+For advanced users: Jump to Notebook 2 for direct model implementation
+For visualization focus: Notebook 1 contains comprehensive EDA and plots
+Customize the analysis: Modify parameters, try different models, or add new features
+
+Contributing
+
+Fork the repository
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+
+Issues and Support
+If you encounter any issues or have questions:
+
+Check the notebook comments and markdown cells for detailed explanations
+Open an issue in this repository with a clear description
+Review the Technologies Used section for dependency information
 
 ## 👣 Detailed Walkthrough
 
