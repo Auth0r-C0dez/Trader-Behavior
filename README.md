@@ -101,81 +101,90 @@ graph TD
     style D fill:#c107ff,stroke:#333,stroke-width:2px
     style I fill:#dc3545,stroke:#333,stroke-width:2px
 ```
-🚀 Getting Started
-Prerequisites
+## 🚀 Getting Started
 
-Python 3.7+
-Google Account (for Colab access)
-Basic understanding of data analysis and machine learning concepts
+Follow these instructions to get a copy of the project up and running on your local machine or in Google Colab.
 
-Quick Start
+### Prerequisites
 
-Fork this repository
-bash# Click the "Fork" button at the top right of this repository
-# Or clone directly:
-git clone https://github.com/Auth0r-C0dez/Trader-Behavior.git
-cd Trader-Behavior
+* Python 3.7+
+* Git
+* A Google Account (for Colab access)
 
-Access the Data
+### Installation & Setup
 
-The datasets are included in the Data_Sets/ folder
-Historical_trader_data.csv: Contains trader transaction data from Hyperliquid platform
-Fear_and_Greed_Index.csv: Market sentiment data
+1.  **Fork this repository**
+    * Click the **Fork** button at the top right of this page to create your own copy.
 
+2.  **Clone your forked repository**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/Trader-Performance-Analysis.git](https://github.com/YOUR_USERNAME/Trader-Performance-Analysis.git)
+    cd Trader-Performance-Analysis
+    ```
 
-Run the Analysis
-Option A: Use Google Colab (Recommended)
+### Running the Analysis
 
-Open the notebooks in the order provided:
+#### Option A: Google Colab (Recommended)
 
-Data Set Processing
-Advanced Visualization
-Model Creation
+1.  Open the notebooks in the following order:
+    * **Notebook 1: Data Processing & EDA:** [Insert Your Google Colab Link Here]
+    * **Notebook 2: Modeling & Insights:** [Insert Your Google Colab Link Here]
+2.  When prompted, upload the CSV files from the `csv_files/` folder.
+3.  Follow the step-by-step instructions within each notebook.
 
+#### Option B: Local Setup
 
-Upload the CSV files from your forked repository to each Colab session
-Follow the step-by-step analysis
+1.  **Create and activate a virtual environment:**
+    ```bash
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
 
-Option B: Local Setup
-bash# Create virtual environment
-python -m venv trader_analysis_env
-source trader_analysis_env/bin/activate  # On Windows: trader_analysis_env\Scripts\activate
+    # For Windows
+    python -m venv venv
+    venv\Scripts\activate
+    ```
 
-# Install required packages
-pip install pandas numpy scikit-learn xgboost matplotlib seaborn jupyter
+2.  **Install required packages:**
+    ```bash
+    pip install pandas numpy scikit-learn xgboost matplotlib seaborn jupyter
+    ```
 
-# Launch Jupyter Notebook
-jupyter notebook
+3.  **Launch Jupyter Notebook:**
+    ```bash
+    jupyter notebook
+    ```
+4.  Navigate to the `notebooks/` directory and open the `.ipynb` files.
 
-Explore the Results
+---
 
-Check the Outputs/ folder for generated visualizations
-Review model performance metrics and feature importance analysis
-Apply the insights to develop your own trading strategies
+## 💡 Usage Tips
 
+* **For Beginners:** Start with the first notebook and follow the sequential flow to understand the entire process from data cleaning to final insights.
+* **For Advanced Users:** Jump directly to the second notebook (`Modeling & Insights`) for model implementation and feature importance analysis.
+* **Explore Results:** Check the `outputs/` folder for generated visualizations and review the final section of the modeling notebook for performance metrics.
 
+---
 
-Usage Tips
+## 🤝 Contributing
 
-For beginners: Start with Notebook 0 and follow the sequential flow
-For advanced users: Jump to Notebook 2 for direct model implementation
-For visualization focus: Notebook 1 contains comprehensive EDA and plots
-Customize the analysis: Modify parameters, try different models, or add new features
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Contributing
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+---
 
-Issues and Support
-If you encounter any issues or have questions:
+## 🐞 Issues and Support
 
-Check the notebook comments and markdown cells for detailed explanations
-Open an issue in this repository with a clear description
-Review the Technologies Used section for dependency information
+If you encounter any issues or have questions about the project:
+
+1.  Review the comments and markdown cells in the notebooks for detailed explanations of each step.
+2.  Open an **Issue** in this repository with a clear description and any relevant error messages.
+
 
 ## 👣 Detailed Walkthrough
 
