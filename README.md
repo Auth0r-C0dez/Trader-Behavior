@@ -90,7 +90,7 @@ graph TD
 
     style A fill:#28a745,stroke:#333,stroke-width:2px
     style L fill:#28a745,stroke:#333,stroke-width:2px
-    style D fill:#ffc107,stroke:#333,stroke-width:2px
+    style D fill:#c107ff,stroke:#333,stroke-width:2px
     style I fill:#dc3545,stroke:#333,stroke-width:2px
 ```
 
