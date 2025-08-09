@@ -65,8 +65,9 @@ ds_yourname/
 
 ## 🔗 Google Colab Notebooks
 
-- **Main Analysis Notebook:** [Insert Your Google Colab Link Here]
-- **(Optional) Second Notebook:** [Insert Your Google Colab Link Here]
+- **Data Set processing:** (https://colab.research.google.com/drive/12bNxLpJxPgs9_2lCT8kOR4sIvzEvnPkt?usp=sharing)
+- **Advanced visualisation and data understanding:** (https://colab.research.google.com/drive/16XghtWRI0rSN7Q-1OcNMSi4-TvkPQgAu?usp=sharing)
+- **Model Creation:** (https://colab.research.google.com/drive/1D5AMC9ITcHBvlRs82JDAPC6axKHZ35lL?usp=sharing)
 
 ---
 
